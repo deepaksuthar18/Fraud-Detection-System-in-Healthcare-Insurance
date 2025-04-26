@@ -3,7 +3,7 @@
 This is a simple Machine Learning web application built using Streamlit to detect fraudulent healthcare insurance claims.
 It allows users to input basic claim data and predicts whether the claim is Fraudulent or Not Fraudulent.
 
-<h2>Features</h2>
+Features
 Model Selection: Choose between two machine learning models:
 
 Random Forest Classifier
