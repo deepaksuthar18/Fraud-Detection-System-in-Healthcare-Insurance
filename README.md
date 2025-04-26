@@ -1,36 +1,36 @@
 # Fraud-Detection-System-in-Healthcare-Insurance
 
-This project is a Healthcare Insurance Fraud Detection System built using Machine Learning and deployed with a Streamlit web app.
+This is a simple Machine Learning web application built using Streamlit to detect fraudulent healthcare insurance claims.
+It allows users to input basic claim data and predicts whether the claim is Fraudulent or Not Fraudulent.
 
-📚 Project Description
-Healthcare fraud is a serious issue causing huge financial losses. This project aims to detect different types of frauds in healthcare insurance claims, such as:
+Features
+Model Selection: Choose between two machine learning models:
 
-Ghost Enrolled: Fake patients created to claim benefits.
+Random Forest Classifier
 
-Phantom Billing: Billing for services never provided.
+Logistic Regression
 
-Fake Treatment: Billing for unnecessary or fake treatments.
+User Input Form: Input Age, Claim Amount, and Gender.
 
-No Fraud: Genuine claims.
+Prediction: Predicts if the insurance claim is fraudulent, showing probability scores.
 
-We have developed and trained machine learning models to predict whether a claim is fraudulent and, if so, what type of fraud it is.
+Interactive UI: Clean, fast, and responsive web app using Streamlit.
 
-🚀 Features
-User-friendly Web Application using Streamlit.
+Algorithms Used
+Random Forest Classifier: An ensemble learning method that operates by constructing multiple decision trees and outputs the mode of the classes.
 
-Real-time Prediction: Enter patient details like Age, Gender, and Claim Amount to get instant fraud prediction.
+Logistic Regression: A statistical model that uses a logistic function to model a binary dependent variable (fraudulent or not).
 
-Multiple Fraud Categories.
+How it Works
+Two ML models are trained on dummy sample data inside the app.
 
-Pre-trained Best Model loaded automatically for fast prediction.
+Based on user inputs (age, claim amount, and gender), the selected model predicts the fraud status.
 
-🛠️ Technologies Used
-Python 🐍
+Gender is encoded as: Male → 1, Female → 0.
 
-Pandas 📊
+Tech Stack
+Python
 
-Scikit-learn 🤖
+Streamlit (for the Web Interface)
 
-Streamlit 🎈
-
-Pickle (for model saving/loading)
+Scikit-learn (for Machine Learning models)
